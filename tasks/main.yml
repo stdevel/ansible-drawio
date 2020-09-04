@@ -1,0 +1,9 @@
+---
+- name: Install draw.io
+  include_tasks: "install_{{ ansible_os_family | regex_replace(' ', '_') | lower }}.yml"
+  tags: install
+  when: drawio_use_appimage != true
+
+- name: Download draw.io AppImage
+  include_tasks: "image.yml"
+  when: drawio_use_appimage
