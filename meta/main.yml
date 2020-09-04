@@ -18,9 +18,7 @@ galaxy_info:
     - name: Fedora
 
   galaxy_tags:
-    - draw.io
     - drawio
     - diagrams
-    - diagrams.net
 
 dependencies: []
