@@ -3,5 +3,5 @@
   become: true
   get_url:
     url: "https://github.com/jgraph/drawio-desktop/releases/download/v{{ drawio_version }}/draw.io-x86_64-{{ drawio_version }}.AppImage"
-    dest: "/opt/drawio-{{ drawio_version }}"
+    dest: "/opt/drawio-{{ drawio_version }}.AppImage"
     mode: '0755'
