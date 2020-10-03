@@ -8,4 +8,4 @@
         name: "ansible-drawio"
       vars:
         drawio_use_appimage: false
-        #drawio_use_appimage: true
+        # drawio_use_appimage: true
