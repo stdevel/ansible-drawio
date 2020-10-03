@@ -2,9 +2,9 @@
 - name: Download package
   get_url:
     url: "https://github.com/jgraph/drawio-desktop/releases/download/v{{ drawio_version }}/draw.io-x86_64-{{ drawio_version }}.rpm"
-    dest: "/tmp/drawio-{{ drawio_version }}.deb"
+    dest: "/tmp/drawio-{{ drawio_version }}.rpm"
 
 - name: Install package
   become: true
   yum:
-    name: "/tmp/drawio-{{ drawio_version }}.deb"
+    name: "/tmp/drawio-{{ drawio_version }}.rpm"
