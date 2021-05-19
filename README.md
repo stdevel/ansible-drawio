@@ -37,7 +37,7 @@ Set variables if required, e.g.:
     - hosts: clients
       roles:
         - role: stdevel.drawio
-					drawio_package_name: "draw.io"
+          drawio_package_name: "draw.io"
           drawio_version: "13.5.7"
           drawio_use_appimage: true
 ```
