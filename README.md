@@ -12,8 +12,8 @@ The system needs access to the internet.
 
 | Variable | Default | Description |
 | -------- | ------- | ----------- |
-| `drawio_package_name` | drawio | Name of the package to download |
-| `drawio_version` | `13.6.2` | Particular draw.io version |
+| `drawio_package_name` | `drawio` | Name of the package to download (*might be `draw.io` for some platforms/formats*) |
+| `drawio_version` | `14.6.13` | Particular draw.io version |
 | `drawio_use_appimage` | `false` | Use AppImage rather than OS package |
 
 
