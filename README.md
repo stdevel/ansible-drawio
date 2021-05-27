@@ -12,7 +12,8 @@ The system needs access to the internet.
 
 | Variable | Default | Description |
 | -------- | ------- | ----------- |
-| `drawio_version` | `13.6.2` | Particular draw.io version |
+| `drawio_package_name` | `drawio` | Name of the package to download (*might be `draw.io` for some platforms/formats*) |
+| `drawio_version` | `14.6.13` | Particular draw.io version |
 | `drawio_use_appimage` | `false` | Use AppImage rather than OS package |
 
 
@@ -36,6 +37,7 @@ Set variables if required, e.g.:
     - hosts: clients
       roles:
         - role: stdevel.drawio
+          drawio_package_name: "draw.io"
           drawio_version: "13.5.7"
           drawio_use_appimage: true
 ```
