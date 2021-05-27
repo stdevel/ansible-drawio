@@ -20,5 +20,5 @@ def test_drawio_appimage(host):
     Ensure that drawio AppImage is installed
     """
     opt_files = host.file("/opt").listdir()
-    images = fnmatch.filter(opt_files, "drawio*.AppImage")
+    images = fnmatch.filter(opt_files, "draw*io*.AppImage")
     assert images
